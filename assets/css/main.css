@@ -72,6 +72,32 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* Image Container */
+.image-container {
+    display: inline-block;
+    width: 300px; /* Adjust width as needed */
+    margin: 10px; /* Adjust margin for spacing */
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Image container for small, left images */
+.image-container2 {
+    float: left
+    max-width=30%; /* Adjust width as needed */
+    margin: 10px; /* Adjust margin for spacing */
+}
+
+.image-container2 img {
+    max-width: 25%;
+    height: auto;
+    display: inline;
+}
+
 /* Basic */
 
 	@-ms-viewport {
@@ -2323,7 +2349,7 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 25%;
 		}
 
 			.image.left img, .image.right img {
