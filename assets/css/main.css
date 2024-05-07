@@ -77,12 +77,14 @@ input, select, textarea {
     display: inline-block;
     width: 300px; /* Adjust width as needed */
     margin: 10px; /* Adjust margin for spacing */
+	overflow: hidden;
 }
 
 .image-container img {
     max-width: 100%;
     height: auto;
     display: block;
+	overflow: hidden;
 }
 
 /* Image container for small, left images */
@@ -90,12 +92,14 @@ input, select, textarea {
     float: left
     max-width=30%; /* Adjust width as needed */
     margin: 10px; /* Adjust margin for spacing */
+	overflow: hidden;
 }
 
 .image-container2 img {
     max-width: 25%;
     height: auto;
     display: inline;
+	overflow: hidden;
 }
 
 /* Basic */
