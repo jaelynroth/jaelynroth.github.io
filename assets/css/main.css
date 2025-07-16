@@ -87,6 +87,11 @@ input, select, textarea {
 	overflow: hidden;
 }
 
+.image-container-constrain {
+	max-width: 100%;
+	overflow: hidden;
+}
+
 /* Image container for small, left images */
 .image-container2 {
     float: left
