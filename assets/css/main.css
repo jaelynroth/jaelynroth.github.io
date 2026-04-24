@@ -91,6 +91,12 @@ input, select, textarea {
 	max-width: 100%;
 }
 
+.img-fluid {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
 /* Image container for small, left images */
 .image-container2 {
     float: left
