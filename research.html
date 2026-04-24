@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="assets/css/slideshow.css" />
 	</head>
 	<body class="is-preload">
 		<!-- Wrapper -->
@@ -69,8 +70,34 @@
 												<li>Holley-Bockelmann, K., Khan, F., Williams, I., Roth, J. S., Rizzo Smith, M., Porter, K., Bellovary, J., Derdzinski, A., Maccio, A. V. (2025). <a href="https://ui.adsabs.harvard.edu/abs/2025ApJ...995L..32H/abstract">Handy Relation between Binary Black Hole Merger Times and Host Galaxy Properties.</a> ApJL 995, L32</li>
 												<li>Homan, D. C., Roth, J. S., & Pushkarev, A. B. (2024). <a href="https://ui.adsabs.harvard.edu/abs/2024AJ....167...11H/abstract">Residual Entropy as a Diagnostic and Stopping Metric for CLEAN.</a> AJ 167, 11</li>
 											</ol>
+						</div> 
 
-
+						<div class="slideshow" id="mySlideshow">
+							<div class="slideshow-container">
+								<!-- Each slide is a div with class "slide" -->
+								<!-- The data-caption attribute is optional and shown below the image -->
+								
+								<div class="slide" data-caption="Photo 1: Description here">
+									<img src="images/pic01.jpg" alt="Photo 1">
+								</div>
+								
+								<div class="slide" data-caption="Photo 2: Another description">
+									<img src="images/pic02.jpg" alt="Photo 2">
+								</div>
+								
+								<div class="slide" data-caption="Photo 3: More details">
+									<img src="images/pic03.jpg" alt="Photo 3">
+								</div>
+							</div>
+							
+							<!-- Caption display -->
+							<div class="slideshow-caption"></div>
+							
+							<!-- Navigation buttons -->
+							<div class="slideshow-controls">
+								<button class="slideshow-prev">← Prev</button>
+								<button class="slideshow-next">Next →</button>
+							</div>
 						</div>
 					</div>
 
@@ -104,6 +131,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/slideshow.js"></script>
 
 	</body>
 </html>
